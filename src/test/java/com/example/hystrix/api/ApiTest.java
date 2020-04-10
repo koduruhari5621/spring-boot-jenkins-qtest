@@ -20,7 +20,7 @@ public class ApiTest {
 		String propValue = apiImpl.returnpropValue();
 		ReflectionTestUtils.setField(apiImpl, "testValue", "hystrix-dashboard");
 		assertNotNull(propValue);
-		assertEquals("null", propValue);
+		assertEquals("hystrix-dashboard", propValue);
 
 	}
 
