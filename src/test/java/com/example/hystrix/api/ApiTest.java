@@ -14,7 +14,6 @@ public class ApiTest {
 
 	@InjectMocks
 	ApiImpl apiImpl;
-
 	@Test
 	public void apiTest() {
 		String propValue = apiImpl.returnpropValue();
